@@ -2,7 +2,12 @@
 // Typography
 // 
 
-$font-family-sans-serif: "Lato",
+@font-face{
+    font-family: "TuskerGrotesk";
+    src: url("../fonts/TuskerGrotesk-4500Medium.ttf") format("truetype");
+  }
+
+$font-family: "TuskerGrotesk",
 -apple-system,
 BlinkMacSystemFont,
 "Segoe UI",
@@ -16,7 +21,7 @@ sans-serif,
 "Segoe UI Symbol",
 'Noto Color Emoji';
 
-$headings-font-family: "Montserrat",
+$headings-font-family:  "TuskerGrotesk",
 -apple-system,
 BlinkMacSystemFont,
 "Segoe UI",

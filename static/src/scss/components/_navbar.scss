@@ -2,10 +2,15 @@
 // Navbar
 // 
 
+@font-face{
+    font-family: "TuskerGrotesk";
+    src: url("../fonts/TuskerGrotesk-4500Medium.ttf") format("truetype");
+  }
+
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: $headings-font-family;
+    font-family: "TuskerGrotesk";
     font-weight: $headings-font-weight;
 
     .navbar-brand {
