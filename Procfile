@@ -1,2 +1,2 @@
-web: gunicorn Planung-Ausstellung-Prototyp.server:server
+web: gunicorn server:app
 
