@@ -299,6 +299,9 @@ a > code {
   border-color: #f2b805;
   border-radius: 5px;
   font-family: "TuskerGrotesk";
+  display: block;
+  font-size: 40px;
+  padding: 1rem;
 }
 
 .content-button:hover {
