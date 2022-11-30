@@ -7829,7 +7829,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: #f25c05 !important;
 }
 
 .text-body {
@@ -7875,7 +7875,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  
+  background-color: #f2b805 !important;
 }
 
 .bg-secondary {
