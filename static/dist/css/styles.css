@@ -252,7 +252,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #f2b805;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -302,6 +302,14 @@ a > code {
   display: block;
   font-size: 40px;
   padding: 1rem;
+}
+
+ .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
 }
 
 .content-button:hover {
@@ -11546,7 +11554,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #f25c05;
+  background-color: rgba(242,92,5, 0.5);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11568,7 +11576,7 @@ html {
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
