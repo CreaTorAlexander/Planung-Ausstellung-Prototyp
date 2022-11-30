@@ -81,9 +81,14 @@
   src: url("../fonts/TuskerGrotesk-4500Medium.ttf") format("truetype");
 }
 
+@font-face{
+  font-family: "Headline-TuskerGrotesk";
+  src: url("../fonts/TuskerGrotesk-5500Medium.ttf") format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: "TuskerGrotesk";
+  font-family: "Headline-TuskerGrotesk";
   
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -216,6 +221,7 @@ strong {
   font-weight: bolder;
 }
 
+
 small, .small {
   font-size: 0.875em;
 }
@@ -285,6 +291,41 @@ code {
 a > code {
   color: inherit;
 }
+
+.content-button {
+  margin-left: 1rem;
+  background-color: #f25c05;
+  color: #f2b805;
+  border-color: #f2b805;
+  border-radius: 5px;
+  font-family: "TuskerGrotesk";
+}
+
+.content-button:hover {
+  color: #fff;
+  background-color: #16a085;
+  border-color: #15967d;
+}
+.btn-check:focus + .content-button, .content-button:focus {
+  color: #fff;
+  background-color: #16a085;
+  border-color: #15967d;
+  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+}
+.btn-check:checked + .content-button, .content-button:active + .content-button, .content-button:active, .content-button.active, .show > .content-button.dropdown-toggle {
+  color: #fff;
+  background-color: #15967d;
+  border-color: #148d75;
+}
+.btn-check:checked + .content-button:focus, .content-button:active + .content-button:focus, .content-button:active:focus, .content-button.active:focus, .show > .content-button.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(60, 198, 171, 0.5);
+}
+.content-button:disabled, .content-button.disabled {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
 
 kbd {
   padding: 0.2rem 0.4rem;
@@ -4569,9 +4610,10 @@ textarea.form-control-lg {
 
 .card-text:last-child {
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
   color: #f25c05;
-  
+  overflow-y: scroll;
+  font-size: xx-large;
 }
 
 .card-link + .card-link {
